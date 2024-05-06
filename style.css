@@ -1,0 +1,40 @@
+.Tienda{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: aqua;
+}
+#nuestrosproductos{
+    display: flex ;
+    flex-wrap: wrap;
+   
+   
+}
+.tarjetasproductos{
+   border: solid black;
+    margin: 10px;
+}
+.imagenes2{
+   height: 200px;
+   justify-content: center;
+  
+}
+.titulo{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: black;
+    margin: 10px;
+    color: white;
+    padding: 2px;
+}
+.boton{
+    margin: 20px;
+   padding: 5px;
+   cursor: pointer;
+}
+.precio{
+    margin: 5px;
+    font-size: 15px;
+    color: red;
+    text-align: center;
+}
