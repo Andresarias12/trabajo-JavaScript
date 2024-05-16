@@ -7,7 +7,7 @@ body{
     text-align: center;
     text-decoration: underline;
     text-transform: uppercase;
-    color: rgb(37, 174, 174);
+    color: aqua;
 }
 #nuestrosproductos{
     display: flex ;
@@ -17,12 +17,10 @@ body{
 }
 .tarjetasproductos{
    border: solid black;
-    margin: 10px;
+    margin: 20px;
 }
 .imagenes2{
-   height: 200px;
-   justify-content: center;
-  
+    height: 200px;
 }
 .titulo{
     text-align: center;
@@ -51,7 +49,7 @@ body{
 .talles{
     text-align: center;
     border: solid ;
-    margin: 10px;
+    margin: 30px;
     
     
 }
@@ -86,4 +84,15 @@ body{
 #boton{
     font-size: 17px;
     
+}
+
+.botonordenar{
+    background-color: black;
+ 
+}
+.boton2{
+    font-size: large;
+   margin-left: 60px;
+   margin-bottom: 10px;
+   
 }

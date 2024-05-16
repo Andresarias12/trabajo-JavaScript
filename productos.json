@@ -1,0 +1,274 @@
+[
+    {
+        "id": 4,
+        "nombre": "gorra yankee",
+        "categoria": "accesorios",
+        "stock": 3,
+        "precio": 1500,
+        "rutaimagen": "gorra1.jpeg"
+    },
+    {
+        "id": 2,
+        "nombre": "gorra yankee",
+        "categoria": "accesorios",
+        "stock": 3,
+        "precio": 1500,
+        "rutaimagen": "gorra-yankee.jpeg"
+    },
+    {
+        "id": 5,
+        "nombre": "gorra New Era",
+        "categoria": "accesorios",
+        "stock": 3,
+        "precio": 1500,
+        "rutaimagen": "gorra-New-Era.jpeg"
+    },
+    {
+        "id": 5,
+        "nombre": "gorra New Era",
+        "categoria": "accesorios",
+        "stock": 3,
+        "precio": 1500,
+        "rutaimagen": "gorra-New-Era2.jpeg"
+    },
+    {
+        "id": 5,
+        "nombre": "gorra New Era",
+        "categoria": "accesorios",
+        "stock": 3,
+        "precio": 1500,
+        "rutaimagen": "gorra-New-Era3.jpeg"
+    },
+    {
+        "id": 6,
+        "nombre": "camisa",
+        "categoria": "indumentaria",
+        "stock": 7,
+        "precio": 3250,
+        "rutaimagen": "camisa.jpeg"
+    },
+    {
+        "id": 36,
+        "nombre": "chaqueta",
+        "categoria": "indumentaria",
+        "stock": 9,
+        "precio": 3350,
+        "rutaimagen": "chaqueta-columbia.jpeg"
+    },
+    {
+        "id": 37,
+        "nombre": "chaqueta",
+        "categoria": "indumentaria",
+        "stock": 9,
+        "precio": 3350,
+        "rutaimagen": "chaqueta-columbia2.jpeg"
+    },
+    {
+        "id": 32,
+        "nombre": "zapatillas Gamma",
+        "categoria": "calzado",
+        "stock": 4,
+        "precio": 4500,
+        "rutaimagen": "zapatos-nike.jpeg"
+    },
+    {
+        "id": 31,
+        "nombre": "zapatillas Air force",
+        "categoria": "calzado",
+        "stock": 4,
+        "precio": 4500,
+        "rutaimagen": "zapatos-nike2.jpeg"
+    },
+    {
+        "id": 34,
+        "nombre": "zapatillas Air force",
+        "categoria": "calzado",
+        "stock": 3,
+        "precio": 4550,
+        "rutaimagen": "zapatos-nike3.jpeg"
+    },
+    {
+        "id": 35,
+        "nombre": "zapatillas Off white",
+        "categoria": "calzado",
+        "stock": 6,
+        "precio": 4500,
+        "rutaimagen": "zapatos-nike4.jpeg"
+    },
+    {
+        "id": 33,
+        "nombre": "conjunto nike",
+        "categoria": "indumentaria",
+        "stock": 7,
+        "precio": 3550,
+        "rutaimagen": "conjunto-nike.jpeg"
+    },
+    {
+        "id": 8,
+        "nombre": "pantalon",
+        "categoria": "indumentaria",
+        "stock": 9,
+        "precio": 2500,
+        "rutaimagen": "pantalon.jpeg"
+    },
+    {
+        "id": 37,
+        "nombre": "pantalon nike",
+        "categoria": "indumentaria",
+        "stock": 8,
+        "precio": 2700,
+        "rutaimagen": "pantalon-nike2.jpeg"
+    },
+    {
+        "id": 9,
+        "nombre": "buzo",
+        "categoria": "indumentaria",
+        "stock": 3,
+        "precio": 4000,
+        "rutaimagen": "buzo.jpeg"
+    },
+    {
+        "id": 12,
+        "nombre": "short de basquet",
+        "categoria": "deportes",
+        "stock": 5,
+        "precio": 3000,
+        "rutaimagen": "short-de-basquet.jpeg"
+    },
+    {
+        "id": 14,
+        "nombre": "short de basquet2",
+        "categoria": "deportes",
+        "stock": 5,
+        "precio": 3000,
+        "rutaimagen": "short-de-basquet-2.jpeg"
+    },
+    {
+        "id": 2,
+        "nombre": "camisa manga larga",
+        "categoria": "indumentaria",
+        "stock": 5,
+        "precio": 4500,
+        "rutaimagen": "camisa-manga-larga.jpeg"
+    },
+    {
+        "id": 15,
+        "nombre": "musculosa nike",
+        "categoria": "indumentaria",
+        "stock": 2,
+        "precio": 2000,
+        "rutaimagen": "musculosa-nike.jpeg"
+    },
+    {
+        "id": 15,
+        "nombre": "musculosa nike",
+        "categoria": "indumentaria",
+        "stock": 4,
+        "precio": 2000,
+        "rutaimagen": "musculosa-nike2.jpeg"
+    },
+    {
+        "id": 16,
+        "nombre": "chaqueta yankee",
+        "categoria": "indumentaria",
+        "stock": 6,
+        "precio": 3200,
+        "rutaimagen": "chaqueta-yankee.jpeg"
+    },
+    {
+        "id": 18,
+        "nombre": "conjunto lacoste",
+        "categoria": "indumentaria",
+        "stock": 10,
+        "precio": 6000,
+        "rutaimagen": "conjunto-lacoste.jpeg"
+    },
+    {
+        "id": 19,
+        "nombre": "camisa de boca",
+        "categoria": "deportes",
+        "stock": 10,
+        "precio": 3500,
+        "rutaimagen": "camisa-de-boca.jpeg"
+    },
+    {
+        "id": 20,
+        "nombre": "camisa de river",
+        "categoria": "deportes",
+        "stock": 10,
+        "precio": 3500,
+        "rutaimagen": "camisa-de-river.jpeg"
+    },
+    {
+        "id": 22,
+        "nombre": "camisa de defensa",
+        "categoria": "deportes",
+        "stock": 10,
+        "precio": 3500,
+        "rutaimagen": "camisa-de-defensa.jpeg"
+    },
+    {
+        "id": 23,
+        "nombre": "camisa de defensa",
+        "categoria": "deportes",
+        "stock": 10,
+        "precio": 3500,
+        "rutaimagen": "camisa-de-godoy.jpeg"
+    },
+    {
+        "id": 24,
+        "nombre": "camisa de racing",
+        "categoria": "deportes",
+        "stock": 9,
+        "precio": 3500,
+        "rutaimagen": "camisa-de-racing.jpeg"
+    },
+    {
+        "id": 25,
+        "nombre": "camisa de independiente",
+        "categoria": "deportes",
+        "stock": 10,
+        "precio": 3500,
+        "rutaimagen": "camisa-de-independiente.jpeg"
+    },
+    {
+        "id": 26,
+        "nombre": "camisa de talleres",
+        "categoria": "deportes",
+        "stock": 8,
+        "precio": 3500,
+        "rutaimagen": "camisa-de-talleres.jpeg"
+    },
+    {
+        "id": 27,
+        "nombre": "short de independiente",
+        "categoria": "deportes",
+        "stock": 10,
+        "precio": 3000,
+        "rutaimagen": "short-de-independiente.jpeg"
+    },
+    {
+        "id": 28,
+        "nombre": "short de racing",
+        "categoria": "deportes",
+        "stock": 8,
+        "precio": 3000,
+        "rutaimagen": "short-de-racing.jpeg"
+    },
+    {
+        "id": 29,
+        "nombre": "short de boca",
+        "categoria": "deportes",
+        "stock": 9,
+        "precio": 3000,
+        "rutaimagen": "short-de-boca.jpeg"
+    },
+    {
+        "id": 30,
+        "nombre": "short de river",
+        "categoria": "deportes",
+        "stock": 3,
+        "precio": 3000,
+        "rutaimagen": "short-de-river.jpeg"
+    }
+]
