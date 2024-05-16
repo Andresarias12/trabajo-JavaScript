@@ -1,11 +1,13 @@
+const carritoLS = () => JSON.parse(localStorage.getItem("carrito")) || []
+
 principal()
 
 async function principal() {
-    
+
     const response = await fetch("./productos.json")
     const productos = await response.json()
 
-    let carrito = carritoLS()
+    carritoProductos()
 
     let botonInicio = document.getElementById("boton")
     botonInicio.addEventListener("click", () => renderizarProductos(productos))
@@ -13,6 +15,8 @@ async function principal() {
 
     let fianlizarCompra = document.getElementById("comprar")
     fianlizarCompra.addEventListener("click", botonFinalizaCom)
+
+    tarjetasdelosproductos(productos)
 
     let botonOedarPr = document.getElementById("botonordenarPr")
     botonOedarPr.addEventListener("click", () => ordenarPrecio(productos))
@@ -26,12 +30,14 @@ async function principal() {
     let botonOrdenar2 = document.getElementById("botonordenar2")
     botonOrdenar2.addEventListener("click", () => ordenar2(productos))
 
+
     let botonCarrito = document.getElementById("carrito")
     botonCarrito.addEventListener("click", botonDeCarrito)
 
-   
+
 
 }
+let carrito = document.getElementById("carrito2")
 
 
 
@@ -43,7 +49,7 @@ function renderizarProductos(productos) {
 
 function filtrarProductos(productos) {
     let inputInicio = document.getElementById("input")
-    return productos.filter(producto => producto.nombre.includes(inputInicio.value))
+    return productos.filter(producto => producto.nombre.includes(inputInicio.value) || producto.categoria.includes(inputInicio.value))
 }
 
 
@@ -51,29 +57,18 @@ function botonFinalizaCom() {
 
     localStorage.removeItem("carrito")
     carritoProductos([])
-    sweetalert("Compra finalizada","Muchas gracias por su compra","success",2000)
+    sweetalert("Compra finalizada", "Muchas gracias por su compra", "success", 2000)
 
-}
-
-function carritoLS() {
-    let carrito = []
-    let carritoLS = JSON.parse(localStorage.getItem("carrito"))
-    if (carritoLS) {
-        carrito = carritoLS
-    }
-    return carrito
 }
 
 function tarjetasdelosproductos(productos) {
 
-    let carrito = carritoLS()
+    
     let nuestrosproductostarjeta = document.getElementById("nuestrosproductos")
 
     nuestrosproductostarjeta.innerHTML = ""
 
-    productos.forEach(productos => {
-
-        let { nombre, rutaimagen, precio, stock, id } = productos
+    productos.forEach(({ nombre, rutaimagen, precio, stock, id }) => {
 
         let tarjetasproductos = document.createElement("div")
         tarjetasproductos.className = "tarjetasproductos"
@@ -83,29 +78,32 @@ function tarjetasdelosproductos(productos) {
         <h4 class="precio"> precio:${precio}</h4>
         <p class="stock">stock: ${stock}</p>
         <h4 class= "talles">talles: xs-s-m-l-x-xl-xxl</h4>
-        <button  id=${id} class="boton2 ">agregar al carrito</button>
+        <button  onclick="agregarPrAlcarrito(${id})" class="boton2" >agregar al carrito</button>
+        
+
         
       `
         nuestrosproductostarjeta.appendChild(tarjetasproductos)
-        let agregarAlcarrito = document.getElementById(productos.id)
-        agregarAlcarrito.addEventListener("click",agregarPrAlcarrito)
-        
+        //let agregarAlcarrito = document.getElementById("botonCarrito" + id)
+        //agregarAlcarrito.addEventListener("click", (e) => agregarPrAlcarrito(e, productos))
+
 
     });
 
 }
 
+//<button  id=botonCarrito${id} class="boton2 ">agregar al carrito</button>
 
 
-
-function agregarPrAlcarrito(e) {
+function agregarPrAlcarrito(e, productos) {
+    console.log(id)
     let carrito = carritoLS()
-    toastify("Producto agregado", "top", 2000)
-    let idDeproducto = Number(e.target.id)
+    let idDeproducto = Number(e.target.id.substring(12))
+  
     let productosEncarrito = carrito.findIndex(producto => producto.id === idDeproducto)
     let productoBuscado = productos.find(producto => producto.id === idDeproducto)
 
-
+    toast("Producto agregado", "top", 2000)
 
 
     if (productosEncarrito !== -1) {
@@ -122,7 +120,7 @@ function agregarPrAlcarrito(e) {
         })
     }
     localStorage.setItem("carrito", JSON.stringify(carrito))
-    carritoProductos(productos)
+    carritoProductos()
 
 
 }
@@ -223,22 +221,22 @@ function ordenar2(productos) {
     tarjetasdelosproductos(productos)
 }
 
-function toastify(text, gravity, duration) {
+function toast(text, gravity, duration) {
     Toastify({
         text,
         gravity,
         duration,
-        backgroundColor: "bisque",
-        close: true, 
+        backgroundColor:"bisque",
+        close: true,
     }).showToast();
 }
 
-function sweetalert(title,text,icon,timer) {
+function sweetalert(title, text, icon, timer) {
     Swal.fire({
         title,
         text,
         icon,
         confirmButtonText: 'cerrar',
         timer,
-      })
+    })
 }
