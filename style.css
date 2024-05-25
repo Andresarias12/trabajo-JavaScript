@@ -1,14 +1,28 @@
 body {
     background-image: url(./images/fondo.avif);
 }
-
+h1{
+    .poetsen-one-regular {
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+}
+.titulo2{
+    text-align: end;
+    background-color:#adb5bd ;
+    margin-right: 130px;
+    margin-left: 130px;
+}
 .Tienda {
-    text-align: center;
+    
     text-decoration: underline;
     text-transform: uppercase;
-    color: #08eded;
-    background: black;
+    color: #212529;
+    background: #adb5bd;
     margin: 30px;
+   
 }
 
 #nuestrosproductos {
@@ -19,7 +33,7 @@ body {
 }
 
 .tarjetasproductos {
-    border: solid black;
+    border: 2px solid black;
     margin: 20px;
     background-color: rgba(217, 213, 213, 0.573);
 

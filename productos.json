@@ -53,7 +53,7 @@
         "categoria": "indumentaria",
         "stock": 9,
         "precio": 60000,
-        "rutaimagen": "chaqueta-columbia.jpeg"
+        "rutaimagen": "chaqueta-columbia2.jpeg"
     },
     {
         "id": 37,
@@ -61,7 +61,7 @@
         "categoria": "indumentaria",
         "stock": 9,
         "precio": 60000,
-        "rutaimagen": "chaqueta-columbia2.jpeg"
+        "rutaimagen": "chaqueta-columbia.jpeg"
     },
     {
         "id": 32,
