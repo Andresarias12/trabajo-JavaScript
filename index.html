@@ -11,35 +11,61 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
+
+
 <body>
+    <header>
 
-    <h1 class="Tienda">Tienda Andres</h1>
 
-    <input id="input"  class="w-25 ms-3 mt-5"  placeholder="buscar productos">
-    <button id="boton">buscar</button>
-    <button id="carrito" class="ms-2">carrito</button>
+        <h1 class="Tienda">Tienda Andres</h1>
+
+     
+
+        <div class="header2">
+            <div class="input2">
+                <input id="input" class=" mt-5" placeholder="buscar productos por">
+                <button id="boton">buscar</button>
+            </div>
+
+            <div class="carrito4">
+                <img src="./images/carrito.webp" id="carrito" class="carrito3" alt="zapatos">
+            </div>
+        </div>
+   
+
+    </header>
+
+
+
+
     <div class="dropdown">
-        <button class=" botonordenar btn btn-secondary dropdown-toggle ms-3 mb-4" type="button" data-bs-toggle="dropdown"
-            aria-expanded="false">
-            Filtrar productos
+        <button id="botonordenar4" class=" botonordenar btn btn-secondary dropdown-toggle mb-4" type="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Ordenar por
         </button>
         <ul class="dropdown-menu">
-            
+
             <button id="botonordenar">nombre - a/z</button>
             <button id="botonordenar2">nombre - z/a</button>
             <button id="botonordenarPr">precio - menor a mayor</button>
             <button id="botonordenarPr2">precio - mayor a menor</button>
 
         </ul>
+
     </div>
+
+
+
+
+
     <div id="nuestrosproductos"></div>
     <div class="carrito" id="productoscarrito"></div>
-    <button id="comprar">Finalizar compra</button>
+    <button id="comprar" class="comprar2">Finalizar compra</button>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="./script.js"></script>

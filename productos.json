@@ -4,7 +4,7 @@
         "nombre": "gorra yankee",
         "categoria": "accesorios",
         "stock": 3,
-        "precio": 1500,
+        "precio": 30000,
         "rutaimagen": "gorra1.jpeg"
     },
     {
@@ -12,7 +12,7 @@
         "nombre": "gorra yankee",
         "categoria": "accesorios",
         "stock": 3,
-        "precio": 1500,
+        "precio": 30000,
         "rutaimagen": "gorra-yankee.jpeg"
     },
     {
@@ -20,31 +20,31 @@
         "nombre": "gorra New Era",
         "categoria": "accesorios",
         "stock": 3,
-        "precio": 1500,
+        "precio": 60000,
         "rutaimagen": "gorra-New-Era.jpeg"
     },
     {
-        "id": 5,
+        "id": 40,
         "nombre": "gorra New Era",
         "categoria": "accesorios",
         "stock": 3,
-        "precio": 1500,
+        "precio": 60000,
         "rutaimagen": "gorra-New-Era2.jpeg"
     },
     {
-        "id": 5,
+        "id": 39,
         "nombre": "gorra New Era",
         "categoria": "accesorios",
         "stock": 3,
-        "precio": 1500,
+        "precio": 60000,
         "rutaimagen": "gorra-New-Era3.jpeg"
     },
     {
         "id": 6,
-        "nombre": "camisa",
+        "nombre": "camisa salmon",
         "categoria": "indumentaria",
         "stock": 7,
-        "precio": 3250,
+        "precio": 45000,
         "rutaimagen": "camisa.jpeg"
     },
     {
@@ -52,7 +52,7 @@
         "nombre": "chaqueta",
         "categoria": "indumentaria",
         "stock": 9,
-        "precio": 3350,
+        "precio": 60000,
         "rutaimagen": "chaqueta-columbia.jpeg"
     },
     {
@@ -60,7 +60,7 @@
         "nombre": "chaqueta",
         "categoria": "indumentaria",
         "stock": 9,
-        "precio": 3350,
+        "precio": 60000,
         "rutaimagen": "chaqueta-columbia2.jpeg"
     },
     {
@@ -68,7 +68,7 @@
         "nombre": "zapatillas Gamma",
         "categoria": "calzado",
         "stock": 4,
-        "precio": 4500,
+        "precio": 100000,
         "rutaimagen": "zapatos-nike.jpeg"
     },
     {
@@ -76,7 +76,7 @@
         "nombre": "zapatillas Air force",
         "categoria": "calzado",
         "stock": 4,
-        "precio": 4500,
+        "precio": 100000,
         "rutaimagen": "zapatos-nike2.jpeg"
     },
     {
@@ -84,7 +84,7 @@
         "nombre": "zapatillas Air force",
         "categoria": "calzado",
         "stock": 3,
-        "precio": 4550,
+        "precio": 100000,
         "rutaimagen": "zapatos-nike3.jpeg"
     },
     {
@@ -92,7 +92,7 @@
         "nombre": "zapatillas Off white",
         "categoria": "calzado",
         "stock": 6,
-        "precio": 4500,
+        "precio": 100000,
         "rutaimagen": "zapatos-nike4.jpeg"
     },
     {
@@ -100,7 +100,7 @@
         "nombre": "conjunto nike",
         "categoria": "indumentaria",
         "stock": 7,
-        "precio": 3550,
+        "precio": 60000,
         "rutaimagen": "conjunto-nike.jpeg"
     },
     {
@@ -108,15 +108,15 @@
         "nombre": "pantalon",
         "categoria": "indumentaria",
         "stock": 9,
-        "precio": 2500,
+        "precio": 32000,
         "rutaimagen": "pantalon.jpeg"
     },
     {
-        "id": 37,
+        "id": 41,
         "nombre": "pantalon nike",
         "categoria": "indumentaria",
         "stock": 8,
-        "precio": 2700,
+        "precio": 30000,
         "rutaimagen": "pantalon-nike2.jpeg"
     },
     {
@@ -124,7 +124,7 @@
         "nombre": "buzo",
         "categoria": "indumentaria",
         "stock": 3,
-        "precio": 4000,
+        "precio": 55000,
         "rutaimagen": "buzo.jpeg"
     },
     {
@@ -132,7 +132,7 @@
         "nombre": "short de basquet",
         "categoria": "deportes",
         "stock": 5,
-        "precio": 3000,
+        "precio": 60000,
         "rutaimagen": "short-de-basquet.jpeg"
     },
     {
@@ -140,15 +140,15 @@
         "nombre": "short de basquet2",
         "categoria": "deportes",
         "stock": 5,
-        "precio": 3000,
+        "precio": 60000,
         "rutaimagen": "short-de-basquet-2.jpeg"
     },
     {
-        "id": 2,
+        "id": 42,
         "nombre": "camisa manga larga",
         "categoria": "indumentaria",
         "stock": 5,
-        "precio": 4500,
+        "precio": 25000,
         "rutaimagen": "camisa-manga-larga.jpeg"
     },
     {
@@ -156,15 +156,15 @@
         "nombre": "musculosa nike",
         "categoria": "indumentaria",
         "stock": 2,
-        "precio": 2000,
+        "precio": 17000,
         "rutaimagen": "musculosa-nike.jpeg"
     },
     {
-        "id": 15,
+        "id": 45,
         "nombre": "musculosa nike",
         "categoria": "indumentaria",
         "stock": 4,
-        "precio": 2000,
+        "precio": 17000,
         "rutaimagen": "musculosa-nike2.jpeg"
     },
     {
@@ -172,7 +172,7 @@
         "nombre": "chaqueta yankee",
         "categoria": "indumentaria",
         "stock": 6,
-        "precio": 3200,
+        "precio": 110000,
         "rutaimagen": "chaqueta-yankee.jpeg"
     },
     {
@@ -180,7 +180,7 @@
         "nombre": "conjunto lacoste",
         "categoria": "indumentaria",
         "stock": 10,
-        "precio": 6000,
+        "precio": 150000,
         "rutaimagen": "conjunto-lacoste.jpeg"
     },
     {
@@ -188,7 +188,7 @@
         "nombre": "camisa de boca",
         "categoria": "deportes",
         "stock": 10,
-        "precio": 3500,
+        "precio": 45000,
         "rutaimagen": "camisa-de-boca.jpeg"
     },
     {
@@ -196,7 +196,7 @@
         "nombre": "camisa de river",
         "categoria": "deportes",
         "stock": 10,
-        "precio": 3500,
+        "precio": 45000,
         "rutaimagen": "camisa-de-river.jpeg"
     },
     {
@@ -204,7 +204,7 @@
         "nombre": "camisa de defensa",
         "categoria": "deportes",
         "stock": 10,
-        "precio": 3500,
+        "precio": 45000,
         "rutaimagen": "camisa-de-defensa.jpeg"
     },
     {
@@ -212,7 +212,7 @@
         "nombre": "camisa de defensa",
         "categoria": "deportes",
         "stock": 10,
-        "precio": 3500,
+        "precio": 45000,
         "rutaimagen": "camisa-de-godoy.jpeg"
     },
     {
@@ -220,15 +220,15 @@
         "nombre": "camisa de racing",
         "categoria": "deportes",
         "stock": 9,
-        "precio": 3500,
+        "precio": 45000,
         "rutaimagen": "camisa-de-racing.jpeg"
     },
     {
         "id": 25,
-        "nombre": "camisa de independiente",
+        "nombre": "camisa de C.A.I",
         "categoria": "deportes",
         "stock": 10,
-        "precio": 3500,
+        "precio": 45000,
         "rutaimagen": "camisa-de-independiente.jpeg"
     },
     {
@@ -236,15 +236,15 @@
         "nombre": "camisa de talleres",
         "categoria": "deportes",
         "stock": 8,
-        "precio": 3500,
+        "precio": 45000,
         "rutaimagen": "camisa-de-talleres.jpeg"
     },
     {
         "id": 27,
-        "nombre": "short de independiente",
+        "nombre": "short de C.A.I",
         "categoria": "deportes",
         "stock": 10,
-        "precio": 3000,
+        "precio": 38000,
         "rutaimagen": "short-de-independiente.jpeg"
     },
     {
@@ -252,7 +252,7 @@
         "nombre": "short de racing",
         "categoria": "deportes",
         "stock": 8,
-        "precio": 3000,
+        "precio": 30000,
         "rutaimagen": "short-de-racing.jpeg"
     },
     {
@@ -260,7 +260,7 @@
         "nombre": "short de boca",
         "categoria": "deportes",
         "stock": 9,
-        "precio": 3000,
+        "precio": 38000,
         "rutaimagen": "short-de-boca.jpeg"
     },
     {
@@ -268,7 +268,64 @@
         "nombre": "short de river",
         "categoria": "deportes",
         "stock": 3,
-        "precio": 3000,
+        "precio": 38000,
         "rutaimagen": "short-de-river.jpeg"
+    },
+    {
+        "id": 46,
+        "nombre": "Buzo Dodge",
+        "categoria": "indumentaria",
+        "stock": 8,
+        "precio": 78900,
+        "rutaimagen": "dodge.jpeg"
+    },
+    {
+        "id": 47,
+        "nombre": "Buzo Skyline",
+        "categoria": "indumentaria",
+        "stock": 10,
+        "precio": 78900,
+        "rutaimagen": "skyline.jpeg"
+    },
+    {
+        "id": 48,
+        "nombre": "Buzo porche",
+        "categoria": "indumentaria",
+        "stock": 7,
+        "precio": 78900,
+        "rutaimagen": "porche.jpeg"
+    },
+    {
+        "id": 49,
+        "nombre": "Remera Ford",
+        "categoria": "indumentaria",
+        "stock": 7,
+        "precio": 52500,
+        "rutaimagen": "ford.jpeg"
+    },
+    {
+        "id": 50,
+        "nombre": "Collar",
+        "categoria": "accesorios",
+        "stock": 5,
+        "precio": 180000,
+        "rutaimagen": "collar.jpeg"
+    },
+    {
+
+        "id": 51,
+        "nombre": "Cruz",
+        "categoria": "accesorios",
+        "stock": 5,
+        "precio": 200000,
+        "rutaimagen": "collar2.jpeg"
+    },
+    {
+        "id": 52,
+        "nombre": "Collar-plata",
+        "categoria": "accesorios",
+        "stock": 5,
+        "precio": 150000,
+        "rutaimagen": "collar3.jpeg"
     }
 ]
